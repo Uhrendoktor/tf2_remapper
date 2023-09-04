@@ -5,6 +5,9 @@ Currently frame-ids in the following message parts will be remapped:\
 `std_msgs::msg::Header` (frame_id)\
 `tf2_msgs::msg::TFMessage` (frame_id, child_frame_id)
 
+## Disclaimer
+The code for this project is not yet fully tested and most certainly not bugfree. If you encounter any bugs while trying to use this project, feel free to commit a pull-request.
+
 ## Usage
 Arguments of the `tf2_remapper` ROS2-Node:
 `frame_mapping` - `string` (json):
